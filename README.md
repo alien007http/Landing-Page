@@ -97,13 +97,8 @@ This project is open-source and free to use under the [MIT License](https://open
 
 Created by **\[Shweta Sharma]**
 
-🔗 [Portfolio/Website](https://alien007http.github.io/Portfolio/)
+🔗 [Portfolio](https://alien007http.github.io/Portfolio/)
 
-📧 [your.email@example.com](s.sharma945043@gmail.com)
+📧 [E-Mail](s.sharma945043@gmail.com)
 
-```
 
----
-
-Let me know if you want the file in downloadable format, or want me to tailor the content (e.g., change your name, email, GitHub link).
-```
