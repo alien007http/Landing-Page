@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starbucks Website Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section>
+    <div class="circle"></div>
+    <header>
+        <a href="#"><img src="https://tse4.mm.bing.net/th/id/OIP.UpAn6Il2uWxs8RrU9n5AEwHaG-?pid=Api&P=0&h=180" class="logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="content">
+        <div class="textBox">
+            <h2>It's not just Coffee</h2>
+            <h3>It's <span class="highlight">Starbucks</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque unde velit corrupti tempora modi tempore deleniti.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+            <img src="./assets/coffee3.png" class="starbucks">
+        </div>
+    </div>
+
+    <ul class="thumb">
+        <li onclick="imgSlider('./assets/coffee1.png'); changeCircleColor('#fd95e7')">
+            <img src="./assets/coffee1.png">
+        </li>
+        <li onclick="imgSlider('./assets/coffee2.png'); changeCircleColor('#eb7495')">
+            <img src="./assets/coffee2.png">
+        </li>
+        <li onclick="imgSlider('./assets/coffee3.png'); changeCircleColor('#017143')">
+            <img src="./assets/coffee3.png">
+        </li>
+    </ul>
+
+    <ul class="sci">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</section>
+
+<script>
+    function imgSlider(imgSrc) {
+        const img = document.querySelector('.starbucks');
+        img.style.opacity = '0';
+        setTimeout(() => {
+            img.src = imgSrc;
+            img.style.opacity = '1';
+        }, 200);
+    }
+
+    function changeCircleColor(color) {
+        document.querySelector('.circle').style.background = color;
+    }
+</script>
+</body>
+</html>
