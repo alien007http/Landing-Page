@@ -1,7 +1,3 @@
-Here’s a well-structured `README.md` file for your **Starbucks Website Landing Page** project. This will help others (or yourself later) understand the purpose, structure, and how to use or modify the project:
-
----
-
 # Starbucks Website Landing Page 🌟☕
 
 This is a responsive **Starbucks-themed landing page** built using HTML, CSS, and JavaScript. It features dynamic product image swapping, vibrant circle backgrounds, and smooth animations — a perfect practice project for frontend web development.
@@ -99,8 +95,10 @@ This project is open-source and free to use under the [MIT License](https://open
 
 ## ✨ Author
 
-Created by **\[Your Name]**
+Created by **\[Shweta Sharma]**
+
 🔗 [Portfolio/Website](https://alien007http.github.io/Portfolio/)
+
 📧 [your.email@example.com](s.sharma945043@gmail.com)
 
 ```
