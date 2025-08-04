@@ -4,7 +4,7 @@ This is a responsive **Starbucks-themed landing page** built using HTML, CSS, an
 
 ## 🔗 Live Demo
 
-[Click](https://github.com/alien007http/Landing-Page.git)
+[Click](https://alien007http.github.io/Landing-Page/)
 ---
 
 ## 🚀 Features
